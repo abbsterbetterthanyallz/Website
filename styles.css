@@ -1,12 +1,12 @@
-.body {
-    background-color: lightpink;
+body {
+    background-color: lightpink !important;
 }
 
 .container {
     background-color: lightpink;
 }
 
-.jumbotron {
+.main-page {
     background-color: lightpink !important;
     background-image: url("images/elise.jpg");
     background-position: center;
