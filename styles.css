@@ -22,17 +22,21 @@ body {
     color: snow;
 }
 
-.lead {
-    color: rgb(250, 145, 245);
+.card-text {
+    color: snow;
+}
+
+.card-text a { 
+    color: snow;
 }
 
 p {
   color:mediumvioletred;
 }
 
-a {
-    color: snow !important;
-    font-family: bold;
+h5 a {
+        color: snow;
+        font-family: bold;
 }
 
 .card-body {
@@ -62,3 +66,4 @@ footer {
   height:100vh;
   background:rgba(255,255,255,0.5);
 } */
+}
