@@ -1,149 +1,36 @@
-html, body {
-  height: 100%;
-}
-
-
-.home {
-  padding: 0;
-  margin: 0;
-  background-color: mistyrose;
-  background-image: url(images/elise.jpg);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: 'Antic Didone', serif;
-}
-/* header,
-nav,
-main {
-  padding: 200px;
-} */
-nav a {
- text-decoration:none;
- color: snow;
-}
-
-h1 {
-  color: deeppink;
-  padding: 20px;
-  margin: 80px;
-  display: flex;
-  justify-content: center;
-  /* float: */
-}
-h2 {
-  color: mediumvioletred;
-  display: flex;
-  justify-content: flex-end;
-  margin: 20px;
-}
-
-h3 {
-  color:snow;
-}
-
-p a {
-  color: black
-}
-
-a:hover {
-  color:
-}
-
-.page-wrap {
-  min-height: 100%;
-  margin-bottom: -55px; /* must be the same height as footer */
-}
-.page-wrap:after {
-  content: "";
-  display: block;
-}
-footer,
-.page-wrap:after {
-  height: 55px; /* however tall you want the footer to be */
-}
-
-footer {
- background: palevioletred;
-  text-align: center;
-  padding: 1px;
-}
-
-/* .home
-.parallax {
-  background-image: url(images/syn.jpg);
-  height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-
-/* CONTACT STYLES -----------------------------------------*/ form {   width: 400px; 
-}
- input, 
-textarea { 
-  border: 1px solid #BF6D50; 
-  width: 400px; 
-  margin-bottom: 10px; 
-}
- input { 
-  height: 20px; 
-}
- textarea {
-   height: 100px; 
-}
- button { 
-  background: #BF6D50; 
-  border: none; 
-  padding: 10px 40px; 
-  font-size: 16px; 
-} 
-
-
-
-
-/*
-html, body {
-  height: 100%;
-}
-.home {
- background-image: url(images/vogue1.jpg);
- background-repeat: no-repeat;
- background-position: 50%;
- background-size: cover;
-}
-html{ height: 100%;}
 body {
- background: mistyrose;
-  background-image: url("images/vogue1.jpg");
-  background-repeat: no-repeat;
-   background-position: center;
-
-  }
-img:hover {
-    background-image: url("images/vogue2.jpg");
-  }
-
-header{
-
+    background-color: lightpink !important;
 }
-p{
-font-family: 'Antic Didone', serif;
-} */
-/* transition-property: all;
-transition-duration: 2s;
-transition-timing-function: ease-in-out;
-transition-delay: 2s; */
-/* background: darksalmon; */
-/* transition-property: all;
-transition-duration: 2s;
-transition-timing-function: ease-in-out;
-transition-delay: 2s; */
-/* color:
-line-height:
-font-family: 'Oswald', sans-serif;
-font-weight:
-text transform:
-font-size: */
+
+.container {
+    background-color: lightpink;
+}
+
+.main-page {
+    background-color: lightpink !important;
+    background-image: url("images/elise.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:auto;
+    width: 780px;
+
+    height: 900px;
+    /* padding-top: 100% */
+}
+
+.display-3 {
+    color: white;
+}
+
+.lead {
+    color: rgb(250, 145, 245);
+}
+
+
+a {
+    color: darkmagenta !important;
+}
+
+.card-body {
+    color: pink;
+}
